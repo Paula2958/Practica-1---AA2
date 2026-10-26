@@ -94,7 +94,7 @@ El mejor experimento fue **E3_profundidad**, ya que obtuvo la menor pérdida de 
 
 ### Curvas de entrenamiento
 
-![Curvas de entrenamiento de E3](figures/e3_curvas.png)
+<img width="1920" height="640" alt="E3_profundidad_curvas" src="https://github.com/user-attachments/assets/e75678d8-a4bc-4e3e-9b09-4470159e45e9" />
 
 Las curvas permiten observar la evolución de la pérdida y del accuracy durante el entrenamiento, tanto para entrenamiento como para validación.
 
@@ -111,7 +111,7 @@ Una vez seleccionado E3, lo evaluamos utilizando las **800 imágenes reservadas 
 
 ### Matriz de confusión
 
-![Matriz de confusión](figures/matriz_confusion.png)
+<img width="1800" height="1620" alt="matriz_confusion_test" src="https://github.com/user-attachments/assets/d8f88a09-9778-4698-b27f-b6104d186e67" />
 
 La mayoría de las categorías se clasificaron correctamente.
 
@@ -142,7 +142,7 @@ La mejor configuración fue **RS_08**, que consiguió una pérdida de validació
 
 ### Evolución de Random Search
 
-![Evolución de Random Search](figures/random_search_progress.png)
+<img width="1440" height="800" alt="random_search_progress" src="https://github.com/user-attachments/assets/17d560dc-087a-4b3f-8715-86158eeb660c" />
 
 La gráfica muestra cómo fue evolucionando la mejor pérdida de validación a medida que se probaron nuevas configuraciones.
 
@@ -165,7 +165,7 @@ Para este experimento utilizamos imágenes de **224 × 224 píxeles** y una GPU 
 
 ### Curvas de entrenamiento
 
-![Curvas de entrenamiento de ResNet18](figures/resnet18_curvas.png)
+<img width="1920" height="640" alt="resnet18_transfer_curvas" src="https://github.com/user-attachments/assets/fb0e3f88-241a-46fb-9456-1290e27359cc" />
 
 ResNet18 consiguió los mejores resultados de validación de todos los modelos estudiados.
 
